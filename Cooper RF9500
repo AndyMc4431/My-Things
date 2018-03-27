@@ -12,11 +12,11 @@
  *
  */
 metadata {
-	definition (name: "Cooper RF9500 Stock", namespace: "smartthings", author: "juano23@gmail.com") {
+	definition (name: "Cooper RF9500", namespace: "smartthings", author: "ADRMcClure@gmail.com") {
 		capability "Switch"
 		capability "Switch Level"
 		capability "Button"
-        capability "Actuator"
+                capability "Actuator"
 
 		//fingerprint deviceId: "0x1200", inClusters: "0x77 0x86 0x75 0x73 0x85 0x72 0xEF", outClusters: "0x26"
 	}
